@@ -6,7 +6,7 @@
 
 using namespace std;
 
-#define GameClassName "AIONClientWndClass1.0"
+#define GameClassName "LDPlayerMainFrame"
 #define DllPath "D:\\MFC_DLL\\Debug\\MFC_DLL.dll"
 
 
@@ -121,7 +121,6 @@ int main()
 {
     // 添加注入DLL 代码
     cout << "开始注入DLL" << endl;
-    ImproveAccessPrivilege();
     InjectDll();
     cout <<  "注入DLL结束" << endl;
    // getchar();
