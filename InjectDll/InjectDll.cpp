@@ -6,8 +6,8 @@
 
 using namespace std;
 
-#define GameClassName "LDPlayerMainFrame"
-#define DllPath "D:\\MFC_DLL\\Debug\\MFC_DLL.dll"
+#define GameClassName "MainWndForm"
+#define DllPath "D:\\MFC_DLL.dll"
 
 
 // 针对XP提高程序的访问权限
